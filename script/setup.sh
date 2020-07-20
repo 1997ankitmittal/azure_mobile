@@ -21,6 +21,13 @@ node -v
 
 npm -v
 
+brew update
+brew upgrade node
+
+node -v
+
+npm -v
+
 npm install -g appium #get appium
  
 npm install wd #get appium client
