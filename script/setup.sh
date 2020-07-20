@@ -1,27 +1,19 @@
 #!/usr/bin/env bash
 
+#export JAVA_HOME=$(/usr/libexec/java_home)
+#export PATH=$JAVA_HOME/bin:$PATH
 
-
-
-
-
-
-
-export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH=$JAVA_HOME/bin:$PATH
-
-source ~/.profile
-
-echo $JAVA_HOME
-
+#source ~/.profile
 
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-node -v
 
+node -v
 npm -v
 
 brew update
+brew link --overwrite node
+
 brew install node
 brew upgrade node
 
