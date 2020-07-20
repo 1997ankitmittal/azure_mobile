@@ -22,6 +22,7 @@ node -v
 npm -v
 
 brew update
+brew install node
 brew upgrade node
 
 node -v
